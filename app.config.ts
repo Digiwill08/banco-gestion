@@ -28,11 +28,11 @@ const schemeFromBundleId = `manus${timestamp}`;
 
 const env = {
   // App branding - update these values directly (do not use env vars)
-  appName: "BancoGestión - Sistema de Gestión Bancaria",
+  appName: "BancoGestión",
   appSlug: "banco-gestion",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
+  logoUrl: "https://private-us-east-1.manuscdn.com/sessionFile/P6NxuSw58jaFKQ5iNCtdVd/sandbox/7mj4qHqzmRSJinEixnIG9p-img-1_1772165876000_na1fn_YmFuY28tZ2VzdGlvbi1pY29u.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUDZOeHVTdzU4amFGS1E1aU5DdGRWZC9zYW5kYm94LzdtajRxSHF6bVJTSmluRWl4bklHOXAtaW1nLTFfMTc3MjE2NTg3NjAwMF9uYTFmbl9ZbUZ1WTI4dFoyVnpkR2x2YmkxcFkyOXUucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=XMdB8iMXx9iyOp~ycVRxK13L1PbWYFpHZEgR7aOI1PmRtMzBmCBPCG19n6uYariQ8QBxoqAUFie84uBUb~OWbHBGjYAEZI~zvhZzhjvjVLq52K5cym6ROADIzR9SKWaOP3EMPAWhEUpre5kI3uDGyJtMVwLDPGSMHp~nO0NGqvbkOi4-73k66ag-wAhYniXabGJyw1d-zYKdHHrGDnzpI1JqRtDJ-EcP4qrcn9s-7WtSeCJtmhbrFl8p0eKoN~hs6eKugQiwcOVKwHYGlXergM~wdyT73YypNHifuD~s-BB3u47hmGQ6Y7tvXCF6IQ9aXWr~R-vme9NSySLr0rKVDQ__",
   scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
