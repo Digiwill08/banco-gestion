@@ -128,7 +128,7 @@ public class Usuario implements UserDetails {
     /**
      * Verifica si el usuario puede realizar operaciones
      */
-    public boolean puedeOperarr() {
+    public boolean puedeOperar() {
         return estadoUsuario == Enums.EstadoUsuario.ACTIVO && esMayorDeEdad();
     }
 }

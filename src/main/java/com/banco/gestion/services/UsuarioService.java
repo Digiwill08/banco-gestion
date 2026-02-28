@@ -99,7 +99,7 @@ public class UsuarioService {
      */
     public boolean puedeOperar(Long idUsuario) {
         Optional<Usuario> usuario = usuarioRepository.findById(idUsuario);
-        return usuario.isPresent() && usuario.get().puedeOperarr();
+        return usuario.isPresent() && usuario.get().puedeOperar();
     }
 
     /**
