@@ -51,7 +51,7 @@ public class BitacoraService {
     /**
      * Registrar bloqueo de cuenta
      */
-    public void registrarBloqueo Cuenta(CuentaBancaria cuenta, Long idUsuario, String rolUsuario) {
+    public void registrarBloqueoCuenta(CuentaBancaria cuenta, Long idUsuario, String rolUsuario) {
         Map<String, Object> detalles = new HashMap<>();
         detalles.put("numero_cuenta", cuenta.getNumeroCuenta());
         detalles.put("saldo_actual", cuenta.getSaldoActual());
